@@ -33,8 +33,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'accounts',
-    'ConsumeAPI',
-    'WebScrapping',
+    'WebScraping',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
