@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{%  block content %}
+
+{% for item in data %}
+
+<li>Title:{{item.title}}</li>
+<li>Price:{{item.price}}</li>
+
+{% endfor%}
+
+{% endblock %}
